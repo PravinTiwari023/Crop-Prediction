@@ -4,6 +4,7 @@ import helpSqllite as help
 st.set_page_config(page_title="Plotting Demo", page_icon="📈")
 
 help.sidebardesign()
+help.hide_watermark()
 
 st.sidebar.header("Plotting Demo")
 
