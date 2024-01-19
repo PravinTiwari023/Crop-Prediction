@@ -10,7 +10,6 @@ st.set_page_config(page_title="Crop Prediction", page_icon="📈")
 
 st.sidebar.header("Crop prediction")
 
-help.hide_watermark()
 help.sidebardesign()
 
 dict = {20:["Rice",ci.rice],11:["Maize",ci.maize],3:["Chickpea",ci.chickpea],9:["Kidneybeans",ci.Kidneybeans],18:["Pigeonpeas",ci.pigeonpeas],
