@@ -8,7 +8,6 @@ with open('dataset1.pkl', 'rb') as file:
 
 st.set_page_config(page_title="Plotting Graphs", page_icon="📈")
 
-helpSqllite.hide_watermark()
 helpSqllite.sidebardesign()
 
 st.sidebar.header("Visualization")
