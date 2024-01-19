@@ -6,7 +6,6 @@ st.set_page_config(page_title="Plotting Demo", page_icon="📈")
 st.sidebar.header("Plotting Demo")
 
 help.sidebardesign()
-help.hide_watermark()
 
 import streamlit as st
 
