@@ -11,7 +11,6 @@ with open('dataset1.pkl', 'rb') as file:
 
 st.sidebar.success("Select a demo above.")
 
-help.hide_watermark()
 help.sidebardesign()
 
 st.title(":blue[Crop Selection According To Environment Using Latest Technique Of Machine Learning]")
